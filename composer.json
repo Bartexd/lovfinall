@@ -1,0 +1,24 @@
+{
+    "name": "bartoszrozycki/lov",
+    "description": "Strona internetowa szkoly ILOAMICKIEWICZ w Wegrowie",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bartosz Różycki",
+            "email": "akalik19786@gmail.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.2",
+        "twbs/bootstrap": "^4.0",
+        "philo/laravel-blade": "^3.1",
+        "illuminate/database": "v5.4.36"
+    },
+    "autoload": {
+        "psr-4":{
+            "Controllers\\": "app/Controllers/",
+            "Models\\": "app/Models/"
+        }
+    }
+
+}
